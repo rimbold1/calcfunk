@@ -1,5 +1,5 @@
 function plus() {
-  var num1, num2, result;
+  let num1, num2, result;
   num1 = document.getElementById('n1').value;
   num1 = parseInt(num1);
 
@@ -12,7 +12,7 @@ function plus() {
 }
 
 function minus() {
-  var num1, num2, result;
+  let num1, num2, result;
   num1 = document.getElementById('n1').value;
   num1 = parseInt(num1);
 
@@ -25,7 +25,7 @@ function minus() {
 }
 
 function multiply() {
-  var num1, num2, result;
+  let num1, num2, result;
   num1 = document.getElementById('n1').value;
   num1 = parseInt(num1);
 
@@ -37,7 +37,7 @@ function multiply() {
 }
 
 function divide() {
-  var num1, num2, result;
+  let num1, num2, result;
   num1 = document.getElementById('n1').value;
   num1 = parseInt(num1);
 
